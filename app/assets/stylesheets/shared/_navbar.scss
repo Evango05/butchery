@@ -17,9 +17,13 @@
   color: #D9312C;
   font-family: "Alkatra";
   font-size: 36px;
-  padding: 5px;
-  border-radius: 5px;
+  padding: 0 20px 0 20px;
+  border-radius: 16px;
   background-color: #F1F1F1;
+}
+
+.navbar-item img {
+  border-radius: 16px;
 }
 
 .navbar-item a:hover {
