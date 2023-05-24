@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   height: 200px;
-  background-color: #f1f1f1;
+  background-image: url("pre.jpeg");
   padding: 0 20px;
 }
 
@@ -14,10 +14,12 @@
 
 .navbar-item a {
   text-decoration: none;
-  color: #333;
-  font-size: 18px;
+  color: #D9312C;
+  font-family: "Alkatra";
+  font-size: 36px;
   padding: 5px;
   border-radius: 5px;
+  background-color: #F1F1F1;
 }
 
 .navbar-item a:hover {
