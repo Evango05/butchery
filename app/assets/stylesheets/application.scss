@@ -9,4 +9,9 @@
 
 // Your CSS partials
 @import "components/index";
-@import "pages/index";
+@import "meats/index";
+@import "shared/index";
+
+body {
+  background-color: #f1f1f1;
+}
