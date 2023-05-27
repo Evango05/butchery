@@ -1,8 +1,26 @@
-.navbar-lewagon {
+.navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  height: 200px;
+  background-image: url("pre.jpeg");
+  background-size: cover;
   flex-wrap: nowrap;
 }
 
-.navbar-item {
+.navbar-item a {
+  text-decoration: none;
+  color: #D9312C;
+  font-family: "Alkatra";
+  font-size: 36px;
+  padding: 0 20px 0 20px;
+  border-radius: 16px;
+  background-color: #F1F1F1;
+}
+
+.navbar-item img {
+  border-radius: 16px;
+}
+
+.navbar-item a:hover {
+  background-color: #ddd;
 }
