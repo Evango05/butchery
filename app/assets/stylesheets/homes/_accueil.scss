@@ -2,18 +2,19 @@
 .wrapper {
   display: flex;
   p {
-    flex-basis: 50%;
+    flex-basis: 60%;
     align-self: flex-start;
-    padding: 10px 0 0 10px;
-    border: solid gray 2px;
+    padding: 10px 15px 15px 10px;
     border-radius: 8px;
-    margin: 15px 0 0 10px;
-    font-family: "Alkatra";
+    margin: 15px 15px 0 10px;
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-family: "PT Mono";
   }
 }
 
 .container {
-  width: 620px;
+  max-width: 48vw;
   display: flex;
   flex-wrap: wrap;
   margin: 10px 0px 0px 10px;
@@ -21,9 +22,41 @@
 }
 
 .item {
-  flex-basis: 50%;
   padding: 5px;
   img {
     border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
+}
+
+.footer {
+  display: flex;
+  ul {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    margin: 10px 0px 10px 30px;
+    border-radius: 8px;
+    list-style-type: none;
+    padding-right: 30px;
+    li {
+      padding-bottom: 10px;
+    }
+  }
+}
+
+.carte {
+  margin: 10px 0px 10px 15px;
+  max-width: 46vw;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  iframe {
+    border-radius: 8px;
+    max-width: 102.5%;
+  }
+}
+
+#horloge {
+  font-size: 30px;
+}
+
+span {
+  font-weight: bold;
 }
